@@ -1,6 +1,5 @@
 '''
 Program Input Nama & No Telepon
-/Input telepon tanpa validasi berupa angka - bebas input/
 '''
 #Library untuk clear screen (cls)
 import os
