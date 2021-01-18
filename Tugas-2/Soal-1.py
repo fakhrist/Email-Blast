@@ -12,6 +12,7 @@ def listContact(): #menampilkan list contact
     if len(contact) < 1 :
         print("Kontak masih kososng")
     else :
+        cls()
         print("Daftar Contact")
         print("--------------")
         for i in contact : #akses dict
@@ -43,6 +44,7 @@ stsProgram = 1 #looping status
 
 #Looping Program
 while stsProgram == 1 : #infinity loop
+    cls()
     print('Selamat Datang!')
     print('------Menu------')
     print('1. Daftar Kontak')
