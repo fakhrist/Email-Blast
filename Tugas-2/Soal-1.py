@@ -21,13 +21,16 @@ def listContact(): #menampilkan list contact
                 print('No Telepon::', value)
 
 def addContact(nama,notlp): #insert data
-    if len(nama) > 0 and len(notlp) > 0 :
-        contactList=dict() #preparation dict
-        contactList[nama] = notlp #key & value
-        contact.append(contactList) #insert
-        print('Contact berhasil ditambahkan')
+    if notlp.isdigit() :
+        if len(nama) > 0 and len(notlp) > 0 :
+            contactList=dict() #preparation dict
+            contactList[nama] = notlp #key & value
+            contact.append(contactList) #insert
+            print('Contact berhasil ditambahkan')
+        else :
+            print('Data yang anda masukan tidak lengkap')
     else :
-        print('Data yang anda masukan tidak lengkap')
+        print('Mohon hanya masukan angka')
 
 def out(): #close program
     print('Program selesai, sampai jumpa!')
