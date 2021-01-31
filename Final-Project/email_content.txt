@@ -1,0 +1,5 @@
+Subject : (Ketikan isi Subject email dibawah ini (Dimulai pada Baris ke-2))
+tulis subject dibaris ini
+Isi E-Mail : (Ketikan isi email dibawah ini (Dimulai pada Baris ke-4))
+tulis isi pesan mulai baris ini
+Terimakasih indonesia.ai
