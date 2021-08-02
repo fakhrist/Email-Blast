@@ -1,2 +1,2 @@
 # basic_python
-Basic Python Indonesia.ai
+Email Blast to All Email Account (Yahoo & Gmail)
